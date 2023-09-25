@@ -1,7 +1,9 @@
 #ifndef SORT_H
 #define SORT_H
 
+#include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 /* data/structure_doubly-linked_list */
 
@@ -23,4 +25,11 @@ typedef struct listint_s
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
+listint_t *create_listint(const int *array, size_t size);
+void insertion_sort_list(listint_t **list);
+void selection_sort(int *array, size_t size);
+int lomuto_partition(int *array, int low, int high, size_t size);
+void quicksort(int *array, int low, int high, size_t size);
+void quick_sort(int *array, size_t size);
+
 #endif /* sort.h */
