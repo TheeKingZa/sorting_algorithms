@@ -33,6 +33,7 @@ void quicksort(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
-
+void shift_down(int *array, size_t size, size_t root, size_t max_size);
+void heap_sort(int *array, size_t size);
 
 #endif /* sort.h */
