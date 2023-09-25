@@ -1,0 +1,1 @@
+The time complexity of shell Sort with the Knuth sequence depends on the size of array and gap chosen. Its not easily expressed with simple Big O notations, as it varies for different cases.
