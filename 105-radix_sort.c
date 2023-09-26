@@ -28,7 +28,7 @@ return (max);
  * @size: The size of the array
  * @exp: The current exponent (1, 10, 100, ...)
  */
-void counting_sort(int *array, size_t size, int exp)
+void counting_sort1(int *array, size_t size, int exp)
 {
 int *output = malloc(sizeof(int) * size);
 int count[10] = {0};
