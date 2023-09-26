@@ -37,5 +37,11 @@ void shift_down(int *array, size_t size, size_t root, size_t max_size);
 void heap_sort(int *array, size_t size);
 void counting_sort(int *array, size_t size);
 void merge(int *arr, int *left, int * middle, int *right);
+void merge(int *arr, int *left, int *middle, int *right);
+void merge_sort_recursive(int *arr, int left, int right);
+void merge_sort(int *array, size_t size);
+int get_max(int *array, size_t size);
+void counting_sort(int *array, size_t size, int exp);
+void radix_sort(int *array, size_t size);
 
 #endif /* sort.h */
